@@ -1,6 +1,7 @@
 package com.example.rostelecom.repositories;
 
 import com.example.rostelecom.entity.Person;
+import org.springframework.context.annotation.Profile;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
