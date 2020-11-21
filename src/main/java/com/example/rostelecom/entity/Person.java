@@ -22,4 +22,9 @@ public class Person {
     @Enumerated(EnumType.STRING)
     private Sex sex;
 
+    public enum Sex{
+        Male, Female
+    }
+
+
 }
